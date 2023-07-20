@@ -1,8 +1,5 @@
 export const Total = (props) => {
-  return (
-    <p>
-      Number of exercises{" "}
-      {props.exercises1 + props.exercises2 + props.exercises3}
-    </p>
-  );
+  const total = props.parts.reduce((ac, curr) => ac + curr.exercises, 0);
+
+  return <p>Number of exercises {total}</p>;
 };
