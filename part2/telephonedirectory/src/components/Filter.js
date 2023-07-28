@@ -14,7 +14,7 @@ const Filter = ({ persons, setShowFilteredPersons }) => {
           )
         : persons
     );
-  }, [search, persons]);
+  }, [search, persons, setShowFilteredPersons]);
 
   return <input type="text" value={search} onChange={handleSearch} />;
 };
