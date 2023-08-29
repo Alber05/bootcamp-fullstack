@@ -1,0 +1,18 @@
+.browserContainer {
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ecebeb;
+  width: 80%;
+  border-radius: 15px;
+  padding: 10px;
+}
+.browserContainer .browser {
+  height: 30px;
+  width: 100%;
+  max-width: 500px;
+  border: none;
+  outline: none;
+  background-color: #ecebeb;
+}

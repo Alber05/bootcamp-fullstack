@@ -1,0 +1,59 @@
+.formSection {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  gap: 20px;
+}
+.formSection .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.formSection .form .inputsContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.formSection .form .inputsContainer .input {
+  width: 50%;
+  height: 30px;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  background-color: #f1f3f4;
+  color: #1a2b34;
+  box-shadow: 1px 1px 4px hsl(201, 33%, 15%);
+}
+.formSection .form .inputsContainer .input::-moz-placeholder {
+  color: hsl(201, 33%, 15%);
+  font-weight: 600;
+}
+.formSection .form .inputsContainer .input::placeholder {
+  color: hsl(201, 33%, 15%);
+  font-weight: 600;
+}
+.formSection .form .submitContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.formSection .form .submitContainer button {
+  width: 100%;
+  background-color: #1a2b34;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 15px;
+  height: 30px;
+  font-weight: 700;
+  box-shadow: 1px 1px 4px hsl(201, 33%, 15%);
+}

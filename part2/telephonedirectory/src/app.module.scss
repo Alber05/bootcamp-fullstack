@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+
+  .showButton {
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    border: none;
+    outline: none;
+    background-color: white;
+  }
+}
